@@ -4,7 +4,7 @@ model_name: 7b
 setup_params:
   repo_id: eachadea/ggml-vicuna-7b-1.1
   filename: ggml-vicuna-7b-1.0-uncensored-q4_0.bin
-  convert: true
+  convert: false
   migrate: false
 model_params:
   ctx_size: 2000
