@@ -2,9 +2,9 @@ models_dir: /models
 model_family: vicuna
 model_name: 13b
 setup_params:
-  repo_id: eachadea/ggml-vicuna-13b-1.1
-  filename: ggml-vicuna-13b-1.1-q4_0.bin
-  convert: false
+  repo_id: decapoda-research/llama-7b-hf-int4
+  filename: llama-7b-4bit.pt
+  convert: true
   migrate: false
 model_params:
   ctx_size: 2000
