@@ -1,6 +1,6 @@
 models_dir: /models
 model_family: vicuna
-model_name: 13b
+model_name: 7b
 setup_params:
   repo_id: decapoda-research/llama-7b-hf-int4
   filename: llama-7b-4bit.pt
