@@ -2,8 +2,8 @@ models_dir: /models
 model_family: vicuna
 model_name: 7b
 setup_params:
-  repo_id: eachadea/ggml-vicuna-7b-1.1
-  filename: ggml-vicuna-7b-1.0-uncensored-q4_0.bin
+  repo_id: Sosaka/Alpaca-native-4bit-ggml
+  filename: ggml-alpaca-7b-q4.bin
   convert: false
   migrate: false
 model_params:
