@@ -1,11 +1,11 @@
 models_dir: /models
-model_family: alpaca
-model_name: 7b
+model_family: vicuna
+model_name: 13b
 setup_params:
-  repo_id: repo_id
-  filename: filename
-  convert: true
-  migrate: true
+  repo_id: eachadea/ggml-vicuna-13b-1.1
+  filename: ggml-vicuna-13b-1.1-q4_0.bin
+  convert: false
+  migrate: false
 model_params:
   ctx_size: 2000
   seed: 1337
