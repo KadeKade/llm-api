@@ -1,5 +1,5 @@
 models_dir: /models
-model_family: vicuna
+model_family: alpaca
 model_name: 7b
 setup_params:
   repo_id: Sosaka/Alpaca-native-4bit-ggml
